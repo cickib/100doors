@@ -1,4 +1,4 @@
-print("The # of the doors open after the 100th cycle:")
+print("The # of the doors open after the 100th cycle: ", end="")
 
 doors = []
 for i in range(1, 101):
@@ -14,4 +14,6 @@ for y in range(1, 101):
 
 for x in range(0,100):
     if doors[x] == 1:
-        print(x+1)
+        print(x+1, " ", end="")
+
+print("")
